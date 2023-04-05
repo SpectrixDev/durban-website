@@ -1,0 +1,32 @@
+.popular-destinations p {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.popular-destinations .row-destinations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  border-top: 1px solid #dcdcdc;
+  border-bottom: 1px solid #dcdcdc;
+  padding: 1rem 0;
+}
+
+.popular-destinations .destination {
+  padding: 0 2rem;
+}
+
+.popular-destinations .destination h3 {
+  margin-bottom: 1rem;
+}
+
+.popular-destinations .destination p {
+  font-size: 0.9rem;
+}
+
+
+h1 {
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}

@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discover Durban: Explore the Vibrant City</title>
-    <link rel="stylesheet" href="styles/destinations.css">
-    <link rel="stylesheet" href="styles/nav.css">
-    <script src="scripts.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Popular Destinations - Durban</title>
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/destinations.css">
 </head>
+
 <body>
     <header>
         <nav role="navigation">
@@ -20,43 +23,50 @@
               <span></span>
 
               <ul id="menu">
-                <a href="#"><li>Home</li></a>
-                <a href="/history"><li>History & Culture</li></a>
-                <a href="/destinations"><li>Popular destinations</li></a>
-                <a href="/gallery"><li>Gallery</li></a>
-                <a href="/book"><li>Book your visit</li></a>
+                <a href="index.html"><li>Home</li></a>
+                <a href="history.html"><li>History & Culture</li></a>
+                <li class="selected">Popular destinations</li>
+                <a href="gallery.html"><li>Gallery</li></a>
+                <a href="book.html"><li>Book your visit</li></a>
               </ul>
             </div>
         </header>
-    <main>
-        <section id="home">
-            <h1>Discover Durban</h1>
-            <p>Welcome to Durban, South Africa's vibrant coastal city. Explore the rich history, culture, and beautiful landscapes that make Durban a must-visit destination.</p>
-        </section>
-        <section id="destinations">
-            <h2>Popular Destinations</h2>
-            <ul>
-                <li>Durban Botanic Gardens</li>
-                <li>Victoria Street Market</li>
-                <li>Golden Mile</li>
-                <li>uShaka Marine World</li>
-                <li>KwaMuhle Museum and Durban Art Gallery</li>
-            </ul>
-        </section>
-        <section id="neighborhoods">
-            <h2>Explore Durban's Neighborhoods</h2>
-            <ul>
-                <li>Inanda</li>
-                <li>Umlazi</li>
-                <li>Pinetown</li>
-                <li>Phoenix</li>
-                <li>Chatsworth</li>
-                <li>Durban Central</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 Discover Durban. All rights reserved.</p>
-    </footer>
+
+  <main>
+    <div class="popular-landing">
+        <h1>Popular Destinations</h1>
+        <p>Discover the most popular destinations in Durban and immerse yourself in the city's unique culture and experiences.</p>
+    </div>
+    
+
+    <div class="container-template">
+      <img src="images/Ushaka.webp" alt="uShaka Marine World">
+      <h2>uShaka Marine World</h2>
+      <p>Explore the largest aquarium in the Southern Hemisphere, where you can get up close with dolphins, sharks, and other marine life. Enjoy the thrilling water rides and dine in one of the many restaurants on the premises.</p>
+      <a href="https://ushakamarine.com/"><button>Learn More</button></a>
+    </div>
+
+    <div class="container-template">
+      <img src="images/MosesMabhida.jpg" alt="Moses Mabida Stadium">
+      <h2>Moses Mabida Stadium</h2>
+      <p>Take in the stunning views of Durban from the top of this iconic stadium. For the adrenaline junkies, try the Big Swing or bungee jump off the stadium's arch.</p>
+      <a href="https://www.mmstadium.com/"><button> Learn more </button> </a>
+    </div>
+
+    <div class="container-template">
+      <img src="images/durbannightlife.jpg" alt="Durban central: Nightlife heaven">
+      <h2>Durban central: Nightlife heaven</h2>
+      <p>Experience Durban's vibrant nightlife in the city center. With a variety of bars, clubs, and restaurants to choose from, there's something for everyone. Walk around and see what the city has to offer.</p>
+      <a href="https://visitdurban.travel/"><button> Learn more </button></a>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Durban Tourism</p>
+  </footer>
+
+  <script src="nav.js"></script>
+
 </body>
+
 </html>

@@ -1,0 +1,152 @@
+/* General CSS */
+
+/* Font and Typography */
+body {
+    font-family: sans-serif;
+    background-color: white;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 7rem;
+    margin: 0;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    text-align: center;
+
+}
+
+/* Button */
+button {
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes popIn {
+    0% {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Stuff for the containers found on most pages: */
+
+.container-template {
+    background-color: rgba(75, 116, 135, 0.1);
+    border-radius: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .container-template img {
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: auto;
+    margin-bottom: 1rem;
+    max-height: 300px;
+    max-width: 500px;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+    width: 100%;
+  }
+  
+  .container-template h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .container-template p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 1rem;
+  }
+  
+  .container-template:hover img {
+    transform: scale(1.05);
+    z-index: inherit;
+    filter: brightness(0.8);
+  }
+  
+
+  button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.5s ease;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+    transform: scale(1.1);
+  }
+
+
+  @media (max-width: 768px) {
+    .container-template {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #history-landing h1 {
+      font-size: 4rem;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: rgba(0, 123, 193, 0.1);
+  }
+  

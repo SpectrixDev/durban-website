@@ -1,0 +1,25 @@
+.booking-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+    text-align: center;
+  }
+
+  h1 {
+    margin-top: 3rem;
+  }
+
+  img {
+    border-radius: 1rem;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    justify-content: center;
+    margin: 0 auto;
+    display: block;
+    width: 35%;
+    height: 35%;
+    margin-bottom: 5rem;
+  }
+  
